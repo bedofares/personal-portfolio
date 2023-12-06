@@ -1,4 +1,3 @@
-import "./introduction.css";
 export default function Introduction() {
   return (
     <>
@@ -13,7 +12,6 @@ export default function Introduction() {
             <br />
             I'm <span className="text-sky-500">Abdelrahman fares ,</span> a
             dedicated Software Developer.{" "}
-            {/* <span className="text-sky-500">Business Grow</span> */}
           </h2>
           <p
             data-aos="fade-up"
@@ -47,23 +45,14 @@ export default function Introduction() {
         <div
           data-aos="fade-up"
           data-aos-once="true"
-          className="flex bg-sky-500/20 justify-center lg:rounded-tr-none overflow-hidden relative rounded-full self-center	"
+          className="flex bg-sky-500/20 dark:bg-white justify-center lg:rounded-tr-none overflow-hidden relative rounded-full self-center	"
         >
-          {/* <img className="absolute h-full inset-0 object-cover" src="/assetes/bedo.png"/> */}
-          {/* <img
-            width={747}
-            height={631}
-            className="h-full inset-0 object-cover"
-            src="/assets/bedo2211.png"
-            alt="michael.png"
-          ></img> */}
-
           <img
             width="747"
             height="613"
             className="h-full inset-0 object-cover"
             src="/assets/bedo2211.png"
-            alt="michael.png"
+            alt="bedo.png"
             data-statamic-responsive-images=""
           />
         </div>

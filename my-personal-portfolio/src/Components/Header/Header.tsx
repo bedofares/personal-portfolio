@@ -1,6 +1,5 @@
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
 import Switcher from "../Switcher";
-import "./header.css";
 import { useState } from "react";
 
 export default function Header() {
@@ -38,10 +37,7 @@ export default function Header() {
         className="py-8"
       >
         <div className="container relative flex flex-row justify-between lg:mx-auto px-4 fixed w-full ">
-          <a
-            href="#"
-            className="flex-grow text-4xl  z-50"
-          >
+          <a  href="/" className="flex-grow text-4xl  z-50">
             👋
           </a>
           {/* navigation */}
@@ -50,28 +46,28 @@ export default function Header() {
               <a
                 className="transition delay-100 hover:text-sky-500"
                 href="#"
-                onClick={()=>scrollToElement('home')}
+                onClick={() => scrollToElement("home")}
               >
                 Home
               </a>
               <a
                 className="transition delay-100 hover:text-sky-500"
                 href="#"
-                onClick={()=>scrollToElement('about')}
+                onClick={() => scrollToElement("about")}
               >
                 About
               </a>
               <a
                 className="transition delay-100 hover:text-sky-500"
                 href="#"
-                onClick={()=>scrollToElement('projects')}
+                onClick={() => scrollToElement("projects")}
               >
                 Projects
               </a>
               <a
                 className="button text-white w-32 !py-3 bg-blue-950 hover:shadow-lg hover:shadow-blue-950/50 dark:bg-white dark:text-black dark:hover:shadow-white/50"
                 href="#"
-                onClick={()=>scrollToElement('contact')}
+                onClick={() => scrollToElement("contact")}
               >
                 Contact
               </a>
@@ -85,7 +81,7 @@ export default function Header() {
               onClick={toggleMobileMenu}
             />
             <CloseOutlined
-              className={`dark:text-white z-50 ${
+              className={`z-50 ${
                 showMobileMenu ? "" : "hidden"
               }`}
               onClick={toggleMobileMenu}
