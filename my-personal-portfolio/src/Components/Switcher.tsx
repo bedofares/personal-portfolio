@@ -7,7 +7,6 @@ export default function Switcher() {
 	const [darkSide, setDarkSide] = useState(
 		colorTheme === "dark" ? true : false
 	);
-	console.log("🚀 ~ file: Switcher.tsx:10 ~ Switcher ~ darkSide:", darkSide)
 
 	const toggleDarkMode = (checked:boolean) => {
 		setTheme(colorTheme);
