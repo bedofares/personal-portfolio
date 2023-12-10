@@ -37,7 +37,7 @@ export default function Header() {
         className="py-8"
       >
         <div className="container relative flex flex-row justify-between lg:mx-auto px-4 fixed w-full ">
-          <a  href="/" className="flex-grow text-4xl  z-50">
+          <a  href="/" className="text-4xl z-50">
             👋
           </a>
           {/* navigation */}
