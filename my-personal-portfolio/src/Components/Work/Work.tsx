@@ -66,34 +66,10 @@ export default function Work() {
   ];
   return (
     <>
-      {/* <div className="container pb-20 lg:pb-36 border-b-2 mt-24 mx-auto px-4 gap-12 item-center">
-        <div>
-          <h3 data-aos="fade-up" className="font-bold uppercase text-gray-400">
-            PORTFOLIO
-          </h3>
-          <h2
-            data-aos="fade-up"
-            className="title mb-6 text-blue-950 dark:text-white"
-          >
-            Recent Work
-          </h2>
-
-          <div id="projects" className="grid sm:grid-cols-3 gap-8 mt-24">
-            {projects.map((project) => {
-              return (
-                <Card
-                  key={project.liveUrl}
-                  liveUrl={project.liveUrl}
-                  imageSrc={project.image}
-                  sourceCode={project.sourceCode}
-                />
-              );
-            })}
-          </div>
-        </div>
-      </div> */}
-
-      <div id="projects" className="container px-4 mx-auto pb-20 mt-24 mb-8 border-b-2">
+      <div
+        id="projects"
+        className="container px-4 mx-auto pb-20 mt-24 mb-8 border-b-2"
+      >
         <h3 data-aos="fade-up" className="font-bold uppercase text-gray-400">
           PORTFOLIO
         </h3>
@@ -103,7 +79,10 @@ export default function Work() {
         >
           Recent Work
         </h2>
-        <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
           {projects.map((project) => {
             return (
               <Card

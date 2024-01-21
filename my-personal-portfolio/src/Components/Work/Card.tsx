@@ -4,11 +4,17 @@ interface CardI {
   imageSrc: string;
   liveUrl: string;
   sourceCode: string;
-  title:string;
-  description:string;
+  title: string;
+  description: string;
 }
 
-export default function Card({ imageSrc, liveUrl, sourceCode,title,description }: CardI) {
+export default function Card({
+  imageSrc,
+  liveUrl,
+  sourceCode,
+  title,
+  description,
+}: CardI) {
   return (
     // <div data-aos="fade-up" className="group relative rounded-[3rem] overflow-hidden">
     //   <img className="h-[350px]" src={imageSrc} alt="Card Image" />
@@ -32,9 +38,7 @@ export default function Card({ imageSrc, liveUrl, sourceCode,title,description }
     //     </a>
     //   </div>
     // </div>
-    <div
-      className="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl shadow-grey-500/40 transition-transform duration-300"
-    >
+    <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl shadow-grey-500/40 transition-transform duration-300">
       <img
         alt="Business owner facing a lot of web design options"
         className="h-52 w-full"
@@ -44,7 +48,7 @@ export default function Card({ imageSrc, liveUrl, sourceCode,title,description }
         data-statamic-responsive-images=""
       />
 
-      <div className="bg-white p-8">
+      <div className="bg-white p-8 h-full">
         <h1 className="font-bold text-xl mb-2">
           {title}
           {/* Newsletter sign-up form */}
@@ -55,7 +59,11 @@ export default function Card({ imageSrc, liveUrl, sourceCode,title,description }
           {/* A simples newsletter sign-up form created using html and css. */}
         </p>
         <div className="flex flex-row gap-2">
-          <a href={sourceCode} target="_blank" className="flex items-center gap-2 font-bold text-sky-500 underline mt-4">
+          <a
+            href={sourceCode}
+            target="_blank"
+            className="flex items-center gap-2 font-bold text-sky-500 underline mt-4"
+          >
             VIEW PROJECT <ArrowRightOutlined />
           </a>
           {/* <a className="flex items-center gap-2 font-bold">

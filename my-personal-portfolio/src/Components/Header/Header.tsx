@@ -37,7 +37,7 @@ export default function Header() {
         className="py-8"
       >
         <div className="container relative flex flex-row justify-between lg:mx-auto px-4 fixed w-full ">
-          <a  href="/" className="text-4xl z-50">
+          <a href="/" className="text-4xl z-50">
             👋
           </a>
           {/* navigation */}
@@ -75,16 +75,16 @@ export default function Header() {
 
             <Switcher />
             <MenuOutlined
-              className={`dark:text-white lg:hidden z-50 ${
+              className={`text-2xl dark:text-white lg:hidden z-50 ${
                 showMobileMenu ? "hidden" : ""
               }`}
               onClick={toggleMobileMenu}
+              size={25}
             />
             <CloseOutlined
-              className={`z-50 ${
-                showMobileMenu ? "" : "hidden"
-              }`}
+              className={`z-50 text-2xl	${showMobileMenu ? "" : "hidden"}`}
               onClick={toggleMobileMenu}
+              size={25}
             />
           </div>
         </div>
