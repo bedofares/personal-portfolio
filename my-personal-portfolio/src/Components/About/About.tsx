@@ -18,7 +18,7 @@ export default function About() {
           >
             <span className="text-sky-500 mb-4 block text-left">{"<p>"}</span>
             I'm Abdelrahman Fares, - a 22-year-old{" "}
-            <span className="text-sky-500">Junior Software Developer</span> with
+            <span className="text-sky-500">Software Developer</span> with
             a penchant for infusing creativity into the digital landscape. Armed
             with a degree in{" "}
             <span className="text-sky-500">Creative Computing</span> from FH
