@@ -4,6 +4,14 @@ import Card from "./Card";
 export default function Work() {
   const projects = [
     {
+      title: "File sharing",
+      description:
+        "This project empowers you to share files conveniently through a user-friendly web interface. It's built using the fundamental web development technologies of HTML, CSS, and JavaScript.",
+      liveUrl: "https://hilarious-speculoos-311227.netlify.app/",
+      sourceCode: "https://github.com/bedofares/File-upload",
+      image: "/assets/Screenshot 2024-04-22 214312.png",
+    },
+    {
       title: "Pepsi landing page",
       description:
         "A dynamic landing page has been developed, enabling users to click on the tiny Pepsi cans below to alter the page's design based on to the can choosen. This interactive feature is implemented using HTML, CSS, and JavaScript.",
