@@ -18,8 +18,10 @@ export default function Introduction() {
             data-aos-once="true"
             className="text-[1rem] lg:text-[1.125rem] dark:text-white"
           >
-            I build custom website solutions that help your business grow . I
-            help you increase conversion and performance in every possible way.
+            I am passionate about developing high-performance web applications
+            and enhancing user experiences. I focus on building scalable,
+            efficient, and innovative solutions that drive results and
+            contribute to organizational success.
           </p>
           <div
             data-aos="fade-up"
@@ -33,7 +35,7 @@ export default function Introduction() {
               See my work
             </a>
             <a
-              href="/abdelrahmanFaresCV.pdf"
+              href="/Abdelrahman_fares_CV.pdf"
               download="abdelrahman_fares_cv"
               target="_blank"
               className="button w-44 bg-sky-500 hover:shadow-lg hover:shadow-sky-500/50"
